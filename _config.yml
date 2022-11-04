@@ -1,0 +1,27 @@
+title: ID.BLOG
+author: azhar-basyiri
+subtitle: Manusia Yang Terlupakan
+
+url: "http://id.basyiri.my.id"
+baseurl: "/"
+
+footer_only_homepage: true
+footer_url: "http://basyiri.my.id"
+footer_text: "Azhar Basyiri Hartono"
+
+favicon_location: assets/favicon.ico
+
+permalink: /:year-:month-:day-:title/
+sass:
+    style: compressed
+    sass_dir: css
+
+navbar:
+ - name: "Tentang"
+   absolute-link: "http://basyiri.my.id/id"
+ - name: "Radio"
+   absolute-link: "http://basyiri.my.id/auditorium"
+ - name: "Fave"
+   absolute-link: "http://azhar.basyiri.my.id"
+
+future: true
