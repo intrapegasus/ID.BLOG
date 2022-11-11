@@ -6,7 +6,7 @@ url: "http://id.basyiri.my.id"
 baseurl: "/"
 
 footer_only_homepage: true
-footer_url: "http://basyiri.my.id"
+footer_url: "https://basyiri.my.id"
 footer_text: "Azhar Basyiri Hartono"
 
 favicon_location: assets/favicon.ico
@@ -18,10 +18,10 @@ sass:
 
 navbar:
  - name: "Tentang"
-   absolute-link: "http://basyiri.my.id/id"
+   absolute-link: "https://basyiri.my.id/id"
  - name: "Radio"
-   absolute-link: "http://basyiri.my.id/auditorium"
+   absolute-link: "https://basyiri.my.id/auditorium"
  - name: "Fave"
-   absolute-link: "http://azhar.basyiri.my.id"
+   absolute-link: "https://azhar.basyiri.my.id"
 
 future: true
