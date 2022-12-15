@@ -1,7 +1,131 @@
----
-layout: default
-permalink: /404.html
-title: 404 - Tak Ada Disini
----
 
-<img src="{{site.url}}{{site.baseurl}}/assets/404.jpg">
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>404 | Berkas Tidak Ditemukan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+      body {
+        margin: 0;
+        padding: 0;
+        background: #1a094a;
+        font-family: "Roboto", sans-serif;
+        margin: 24px;
+        color: #ffffff;
+      }
+
+      a:link {
+        color: inherit;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .info {
+        min-height: 600px;
+        margin: 18vh auto 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .org-name {
+        margin: 20px 0 0 0;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+      }
+
+      .title {
+        margin: 48px 0 0 0;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 46px;
+        line-height: 54px;
+      }
+
+      .site {
+        margin: 24px 0 0 0;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+      }
+
+      .subtitle {
+        max-width: 600px;
+        margin: 10px 0 0 0;
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        flex-grow: 1;
+      }
+      
+      .mt-6 {
+        margin: 24px 0 0 0;
+      }
+
+      .mt-3 {
+        margin: 12px 0 0 0;
+      }
+
+      .block-reason {
+        font-size: 16px;
+      }
+
+      .mailto-address {
+        font-size: 16px;
+      }
+
+      .radar {
+        font-size: 16px;
+      }
+
+      .request-info {
+        position: absolute;
+        bottom: 16px;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.8;
+      }
+    </style>
+    <script>
+      const shouldShowDark = (backgroundColor) => {
+        const c = backgroundColor.match(/rgb\((\d{1,3}), (\d{1,3}), (\d{1,3})\)/);
+        return c[1] * 0.299 + c[2] * 0.587 + c[3] * 0.114 > 150
+      }
+
+      window.onload = function() {
+        document.body.style.color = shouldShowDark(window.getComputedStyle(document.body).backgroundColor) ? "#1e1e1e" : "#ffffff";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="info">
+      <img src="https://block.basyiri.my.id/TasyaIDMedia.png" width="146" height="146"></img>
+      <div class="org-name">Tasya ID Media</div>
+      <div class="title">Internet Berdaulat</div>
+      <div class="site" id="domain">Site: id.basyiri.my.id</div>
+      <div class="subtitle">
+        <div class="footer-text">Berkas Tidak Ditemukan</div>
+        <div class="mt-6"></div>
+        <div class="block-reason">&#169; Azhar Basyiri H (Uni Eropa)</div>
+        <div class="mt-6"></div>
+      </div>
+    </div>
+  </body>
+</html>
+
